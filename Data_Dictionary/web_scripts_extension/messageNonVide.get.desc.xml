@@ -1,0 +1,7 @@
+<webscript>
+	<shortname>WebScript Exemple Mairie SIRH</shortname>
+  	<description>Afficher un message si l'argument n'est pas null ou vide</description>
+		<url>/webscritp-sirh?message={string}</url>
+		<format default="html">extension</format>
+  		<authentication>admin</authentication>
+</webscript>
