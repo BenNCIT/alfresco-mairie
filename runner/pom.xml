@@ -7,7 +7,7 @@
     <description>Alfresco, Share and Solr4 Tomcat Runner</description>
 
     <parent>
-        <groupId>ville-noumea.dsi.sirh</groupId>
+        <groupId>noumea.mairie.dsi.alfresco</groupId>
         <artifactId>alfresco-mairie</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>

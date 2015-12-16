@@ -19,13 +19,13 @@
 <beans>
     
     <!-- A simple class that is initialized by Spring -->
-    <bean id="ville-noumea.dsi.sirh.exampleBean" class="ville-noumea.dsi.sirh.demoamp.Demo" init-method="init" />
+    <bean id="noumea.mairie.dsi.alfresco.exampleBean" class="noumea.mairie.dsi.alfresco.demoamp.Demo" init-method="init" />
 
     <!-- A simple module component that will be executed once.
          Note. this module component will only be executed once, and then there will be an entry for it in the Repo.
          So doing for example $ mvn clean install -Prun twice will only execute this component the first time.
          You need to remove /alf_data_dev for it to be executed again. -->
-    <bean id="ville-noumea.dsi.sirh.exampleComponent" class="ville-noumea.dsi.sirh.demoamp.DemoComponent" parent="module.baseComponent" >
+    <bean id="noumea.mairie.dsi.alfresco.exampleComponent" class="noumea.mairie.dsi.alfresco.demoamp.DemoComponent" parent="module.baseComponent" >
         <property name="moduleId" value="repo-amp" />  <!-- See module.properties -->
         <property name="name" value="exampleComponent" />
         <property name="description" value="A demonstration component" />

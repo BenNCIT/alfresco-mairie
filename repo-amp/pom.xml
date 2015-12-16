@@ -7,7 +7,7 @@
     <description>This is a sample Alfresco repository AMP project, depended upon by the alfresco WAR aggregator</description>
 
     <parent>
-        <groupId>ville-noumea.dsi.sirh</groupId>
+        <groupId>noumea.mairie.dsi.alfresco</groupId>
         <artifactId>alfresco-mairie</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>

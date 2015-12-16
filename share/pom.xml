@@ -8,7 +8,7 @@
     <description>Alfresco Share aggregator, installs your Share AMPs in the Share WAR for aggregation and easy deployment purposes</description>
 
     <parent>
-        <groupId>ville-noumea.dsi.sirh</groupId>
+        <groupId>noumea.mairie.dsi.alfresco</groupId>
         <artifactId>alfresco-mairie</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
