@@ -14,7 +14,7 @@
    -->
 
    <!-- Add module specific messages and labels -->
-   <bean id="ville-noumea.dsi.sirh.share-amp.resources"
+   <bean id="noumea.mairie.dsi.alfresco.share-amp.resources"
          class="org.springframework.extensions.surf.util.ResourceBundleBootstrapComponent">
       <property name="resourceBundles">
          <list>

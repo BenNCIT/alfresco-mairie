@@ -18,7 +18,7 @@
 -->
 <beans>
 	<bean id="webscript.helloworld.get"
-		  class="ville-noumea.dsi.sirh.demoamp.HelloWorldWebScript"
+		  class="noumea.mairie.dsi.alfresco.demoamp.HelloWorldWebScript"
 		  parent="webscript">
 	</bean>
 </beans>

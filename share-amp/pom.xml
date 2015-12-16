@@ -8,7 +8,7 @@
     <description>This is a sample Alfresco Share AMP project, depended upon by the share WAR module</description>
 
     <parent>
-        <groupId>ville-noumea.dsi.sirh</groupId>
+        <groupId>noumea.mairie.dsi.alfresco</groupId>
         <artifactId>alfresco-mairie</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>ville-noumea.dsi.sirh</groupId>
+    <groupId>noumea.mairie.dsi.alfresco</groupId>
     <artifactId>alfresco-mairie</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Alfresco Repository and Share Quickstart with database and an embedded Tomcat runner.</name>
@@ -21,6 +21,7 @@
        For more available properties see the alfresco-sdk-parent POM.
        -->
     <properties>
+        <alfresco.version>5.0.d</alfresco.version>
         <!-- The following are default values for data location, Alfresco Community version, and Records Management Module version.
              Uncomment if you need to change (Note. current default version for Enterprise edition is 5.0.1)
           <alfresco.version>5.0.d</alfresco.version>

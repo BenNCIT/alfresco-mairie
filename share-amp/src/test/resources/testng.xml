@@ -3,7 +3,7 @@
 <suite name="Custom Share AMP Page Object Tests" parallel="false">
     <test name="DemoPageTest">
         <classes>
-            <class name="ville-noumea.dsi.sirh.demoamp.DemoPageTestIT"/>
+            <class name="noumea.mairie.dsi.alfresco.demoamp.DemoPageTestIT"/>
         </classes>
     </test>
 </suite>
